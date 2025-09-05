@@ -18,7 +18,23 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sans': ['Poppins', 'system-ui', 'sans-serif'],
+				'poppins': ['Poppins', 'sans-serif'],
+			},
 			colors: {
+				// Mt. KOJO brand colors
+				olive: 'hsl(var(--olive))',
+				moss: 'hsl(var(--moss))',
+				sage: 'hsl(var(--sage))',
+				beige: 'hsl(var(--beige))',
+				'warm-white': 'hsl(var(--warm-white))',
+				charcoal: 'hsl(var(--charcoal))',
+				
+				// Gradients
+				'gradient-nature': 'var(--gradient-nature)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-subtle': 'var(--gradient-subtle)',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
