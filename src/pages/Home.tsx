@@ -15,7 +15,7 @@ const Home = () => {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Natural skincare inspiration"
+            alt="Japanese skincare inspiration"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/40" />
@@ -27,7 +27,7 @@ const Home = () => {
             Mt. KOJO
           </h1>
           <p className="text-xl sm:text-2xl lg:text-3xl mb-8 font-light max-w-3xl mx-auto leading-relaxed">
-            Skincare made simple. Built for men, inspired by nature.
+            Men’s skincare, rooted in Japanese simplicity. Nature-driven, results-focused.
           </p>
           
           {/* CTA Buttons */}
@@ -52,10 +52,11 @@ const Home = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-              Skincare that works as hard as you do
+              Skincare with the discipline of tradition, made effortless for today
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We're building products that simplify your routine without compromising on results.
+              Inspired by the rituals of Japanese skincare, we craft formulas that balance minimalism with powerful natural ingredients. 
+              Your routine should be simple, effective, and elevate your confidence every day.
             </p>
           </div>
 
@@ -63,15 +64,15 @@ const Home = () => {
             {[
               {
                 title: "Simple",
-                description: "No complicated routines. Just effective products that fit your lifestyle."
+                description: "Streamlined steps. No clutter. Just essentials that fit seamlessly into your day."
               },
               {
                 title: "Natural",
-                description: "Inspired by nature, formulated with ingredients you can trust."
+                description: "Formulations inspired by Japanese botanicals — green tea, rice bran, and minerals — chosen for purity and effectiveness."
               },
               {
                 title: "Confident",
-                description: "Products designed to help you look and feel your best, every day."
+                description: "Healthy skin, clear mind. Designed to help you show up at your best, every single day."
               }
             ].map((value, index) => (
               <div key={index} className="text-center p-6">
@@ -86,6 +87,7 @@ const Home = () => {
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="mb-2">Crafted with care, inspired by nature, guided by tradition.</p>
           <p className="mb-2">&copy; 2024 Mt. KOJO. All rights reserved.</p>
           <div className="flex justify-center space-x-6">
             <a href="#" className="hover:text-secondary transition-colors">Instagram</a>
