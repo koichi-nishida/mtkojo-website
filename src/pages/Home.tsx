@@ -97,7 +97,15 @@ const Home = () => {
         </div>
       </footer>
     </div>
+    
   );
 };
+
+console.log("Rendering Home.tsx", new Date().toISOString());
+<div style={{position:'fixed',bottom:8,right:8,fontSize:12,opacity:.6,zIndex:9999}}>
+  {new Date().toLocaleTimeString()}
+</div>
+
+
 
 export default Home;
