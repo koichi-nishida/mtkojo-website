@@ -22,6 +22,11 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
+            <img
+              src="/logo.png"  // place logo.png inside your public/ folder
+              alt="Mt. KOJO Logo"
+              className="h-8 w-8 mr-2"
+            />
             <span className="text-2xl font-bold font-poppins text-primary">Mt. KOJO</span>
           </Link>
 

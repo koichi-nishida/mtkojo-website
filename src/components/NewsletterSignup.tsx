@@ -29,7 +29,7 @@ const NewsletterSignup = ({
     setTimeout(() => {
       toast({
         title: "Success!",
-        description: "You've been added to our waitlist.",
+        description: "You've been added to our newsletter.",
       });
       setEmail('');
       setIsSubmitting(false);
@@ -48,7 +48,7 @@ const NewsletterSignup = ({
           required
         />
         <Button type="submit" disabled={isSubmitting}>
-          {isSubmitting ? 'Joining...' : 'Join the Waitlist'}
+          {isSubmitting ? 'Joining...' : 'Join the Newsletter'}
         </Button>
       </form>
     );

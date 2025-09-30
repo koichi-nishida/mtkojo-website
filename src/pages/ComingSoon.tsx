@@ -136,7 +136,7 @@ const ComingSoon = () => {
                 {
                   phase: "Phase 3",
                   title: "Full Launch",
-                  status: "2024",
+                  status: "Spring 2026",
                   description: "Complete collection available to everyone"
                 }
               ].map((item, index) => (
@@ -165,11 +165,11 @@ const ComingSoon = () => {
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="mb-2">&copy; 2024 Mt. KOJO. All rights reserved.</p>
+          <p className="mb-2">&copy; 2025 Mt. KOJO. All rights reserved.</p>
           <div className="flex justify-center space-x-6">
             <a href="#" className="hover:text-secondary transition-colors">Instagram</a>
             <a href="#" className="hover:text-secondary transition-colors">TikTok</a>
-            <a href="mailto:hello@mtkojo.com" className="hover:text-secondary transition-colors">Email</a>
+            <a href="mailto:info@mtkojo.com" className="hover:text-secondary transition-colors">Email</a>
           </div>
         </div>
       </footer>

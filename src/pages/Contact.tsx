@@ -120,8 +120,8 @@ const Contact = () => {
                       <Mail className="h-5 w-5 text-primary" />
                       <div>
                         <h3 className="font-semibold">Email</h3>
-                        <a href="mailto:hello@mtkojo.com" className="text-muted-foreground hover:text-primary transition-colors">
-                          hello@mtkojo.com
+                        <a href="mailto:info@mtkojo.com" className="text-muted-foreground hover:text-primary transition-colors">
+                          info@mtkojo.com
                         </a>
                       </div>
                     </div>
@@ -145,7 +145,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold">TikTok</h3>
                         <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                          @mtkojo
+                          @mtkoj0
                         </a>
                       </div>
                     </div>
@@ -158,7 +158,7 @@ const Contact = () => {
                   <div className="space-y-3">
                     <div>
                       <h4 className="font-medium text-sm">When will products be available?</h4>
-                      <p className="text-sm text-muted-foreground">We're targeting a 2024 launch. Join our waitlist to be the first to know!</p>
+                      <p className="text-sm text-muted-foreground">We're targeting a Spring 2026 launch. Join our waitlist to be the first to know!</p>
                     </div>
                     <div>
                       <h4 className="font-medium text-sm">Do you ship internationally?</h4>
@@ -177,14 +177,18 @@ const Contact = () => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-primary text-primary-foreground py-8">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="mb-2">&copy; 2024 Mt. KOJO. All rights reserved.</p>
+      <footer className="border-t">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-muted-foreground">
+            Crafted with care. Informed by Japan. Built for your routine.
+          </p>
           <div className="flex justify-center space-x-6">
             <a href="#" className="hover:text-secondary transition-colors">Instagram</a>
             <a href="#" className="hover:text-secondary transition-colors">TikTok</a>
-            <a href="mailto:hello@mtkojo.com" className="hover:text-secondary transition-colors">Email</a>
+            <a href="mailto:info@mtkojo.com" className="hover:text-secondary transition-colors">Email</a>
           </div>
+          <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Mt. KOJO. All rights reserved.</p>
+          
         </div>
       </footer>
     </div>

@@ -23,11 +23,14 @@ const Home = () => {
         
         {/* Hero Content */}
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold font-poppins mb-6 tracking-tight">
+          <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold font-poppins mb-6 tracking-tight">
             Mt. KOJO
           </h1>
-          <p className="text-xl sm:text-2xl lg:text-3xl mb-8 font-light max-w-3xl mx-auto leading-relaxed">
-            Men’s skincare, rooted in Japanese simplicity. Nature-driven, results-focused.
+          <h1 className="text-4xl sm:text-3xl lg:text-5xl font-bold font-poppins mb-6 tracking-tight">
+            Reset · Hydrate · Shield
+          </h1>
+          <p className="text-xl sm:text-2xl lg:text-3xl mb-8 font-semibold max-w-3xl mx-auto leading-relaxed">
+            Men’s skincare inspired by Japanese simplicity. Three steps. Real results.
           </p>
           
           {/* CTA Buttons */}
@@ -35,7 +38,7 @@ const Home = () => {
             <Button size="lg" variant="secondary" className="text-lg px-8 py-3" asChild>
               <Link to="/coming-soon">Join the Waitlist</Link>
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-white text-white hover:bg-white hover:text-primary" asChild>
+            <Button size="lg" variant="outline" className="text-lg px-8 py-3 border-white text-primary hover:bg-white hover:text-primary" asChild>
               <Link to="/about">Learn Our Story</Link>
             </Button>
           </div>
@@ -52,7 +55,7 @@ const Home = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-              Skincare with the discipline of tradition, made effortless for today
+              Made for Men. Informed by Japan.
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Inspired by the rituals of Japanese skincare, we craft formulas that balance minimalism with powerful natural ingredients. 
@@ -85,15 +88,18 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-primary text-primary-foreground py-8">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="mb-2">Crafted with care, inspired by nature, guided by tradition.</p>
-          <p className="mb-2">&copy; 2024 Mt. KOJO. All rights reserved.</p>
+      <footer className="border-t">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-muted-foreground">
+            Crafted with care. Informed by Japan. Built for your routine.
+          </p>
           <div className="flex justify-center space-x-6">
             <a href="#" className="hover:text-secondary transition-colors">Instagram</a>
             <a href="#" className="hover:text-secondary transition-colors">TikTok</a>
-            <a href="mailto:hello@mtkojo.com" className="hover:text-secondary transition-colors">Email</a>
+            <a href="mailto:info@mtkojo.com" className="hover:text-secondary transition-colors">Email</a>
           </div>
+          <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} Mt. KOJO. All rights reserved.</p>
+          
         </div>
       </footer>
     </div>
