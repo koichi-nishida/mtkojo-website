@@ -55,7 +55,7 @@ const Home = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-              Made for Men. Informed by Japan.
+              Made for Men. Made in Japan.
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Inspired by the rituals of Japanese skincare, we craft formulas that balance minimalism with powerful natural ingredients. 
